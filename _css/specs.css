@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+section#conteudo{
+    width: 1000px;
+    margin: auto;
+}
+iframe#frame-spec {
+    display: block;
+    float: right;
+    width: 420px;
+    height: 280px;
+    margin-right: 0px;
+    border: none;  
+    overflow: hidden;
+}
+iframe#frame-spec::-webkit-scrollbar{
+    display: none;
+}
+div p#specs{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-indent: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
